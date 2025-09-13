@@ -43,13 +43,13 @@
 // -----------------------------------------------------------------------------------------
 // |  TAB   |  !  |  @  |  UP |  {  |  }  |   |     |  7  |  8  |  9  |  *  | BSPC |
 // | CTRL   |  #  | LFT | DWN | RGT |  $  |   |     |  4  |  5  |  6  |  +  |  \   |
-// | SHFT,` |  [  |  ]  |  (  |  )  |  &  |   |  -  |  1  |  2  |  3  |  0  |  =   |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+// | SHFT,` |  [  |  ]  |  (  |  )  |  &  |   |     |  1  |  2  |  3  |  -  |  =   |
+//                    | GUI |     | SPC |   | ENT |     |  0  |
                         bindings = <
-   &kp  TAB        &kp EXCL &kp AT   &kp UP   &kp LBRC  &kp RBRC    &trans   &kp N7 &kp N8   &kp N9 &kp ASTRK &kp BSPC
-   &kp LCTRL       &kp HASH &kp LEFT &kp DOWN &kp RIGHT &kp DLLR    &trans   &kp N4 &kp N5   &kp N6 &kp PLUS  &kp BSLH
-   &mt LSHFT GRAVE &kp LBKT &kp RBKT &kp LPAR &kp RPAR  &kp AMPS    &kp MINUS   &kp N1 &kp N2   &kp N3 &kp N0    &kp EQUAL
-                               &kp LGUI &trans    &kp SPACE   &kp RET  &trans &kp RALT
+   &kp  TAB        &kp EXCL &kp AT   &kp UP   &kp LBRC  &kp RBRC    &trans    &kp N7 &kp N8    &kp N9 &kp ASTRK    &kp BSPC
+   &kp LCTRL       &kp HASH &kp LEFT &kp DOWN &kp RIGHT &kp DLLR    &trans    &kp N4 &kp N5    &kp N6 &kp PLUS     &kp BSLH
+   &mt LSHFT GRAVE &kp LBKT &kp RBKT &kp LPAR &kp RPAR  &kp AMPS    &trans    &kp N1 &kp N2 &kp N3 &kp MINUS &kp EQUAL
+                               &kp LGUI &trans    &kp SPACE   &kp RET  &trans &kp N0
                         >;
                 };
         };
